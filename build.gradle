@@ -9,7 +9,10 @@ plugins {
 }
 
 version = scmVersion.version
-sourceCompatibility = 11
+//sourceCompatibility = 11
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
 
 repositories {
     mavenCentral()
